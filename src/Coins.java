@@ -16,6 +16,8 @@ public class Coins {
                 int coinsfive = remainder / 5;
                 System.out.println("coins of 5 :" +coinsfive);
                 remainder = amount % 5;
+            }else {
+                System.out.println("coins of 5 : 0");
             }
             if (remainder / 2 != 0) {
                 int cointwo = remainder / 2;
